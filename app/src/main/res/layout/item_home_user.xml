@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/item_home_user_image"
+        app:riv_border_color="#333333"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="30dip"
+        app:riv_mutate_background="false"
+        app:riv_oval="true"
+        android:padding="10dp"
+        app:riv_tile_mode="repeat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        android:id="@+id/item_home_user_name"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black_transparent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
